@@ -1,0 +1,36 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-image: url('Your-image.jpg'); /* Repalce with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /*Full viewport height */
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.intro-text {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+    padding: 20px;
+    border-radius: 10px
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
